@@ -1,0 +1,14 @@
+show name
+show scalaVersion
+show version
+show organization
+set organization := "com.tobias.saul"
+set scalaVersion := "2.12"
+set version := "1.0-SNAPSHOT"
+session save
+exit
+compile
+set scalaVersion := "2.13.2"
+compile
+run
+exit
